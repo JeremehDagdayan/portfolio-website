@@ -10,8 +10,3 @@ This repository contains a personal portfolio website for Jeremeh Dagdayan.
 - `css/style.css` – Styles
 - `assets/images/` – Images
 - `assets/docs/` – Documents
-
-## Publish
-Enable GitHub Pages in the repo settings and set the source to `main` branch → `/ (root)`.
-
-Live URL will be:
