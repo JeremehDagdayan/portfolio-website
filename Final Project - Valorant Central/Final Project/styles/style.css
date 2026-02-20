@@ -1,0 +1,214 @@
+:root {
+    --main-bg: #0f1923;
+    --accent-color: #ff4655;
+    --text-color: #ffffff;
+    --font-body: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+body {
+    margin: 0;
+    font-family: var(--font-body);
+    background-color: var(--main-bg);
+    color: var(--text-color);
+}
+  
+header {
+    background-color: #1e2a38;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+  
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px var(--accent-color);
+}
+  
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+  
+nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+  
+nav a:hover {
+    color: var(--accent-color);
+}
+  
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('images/valorant-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://mmos.com/wp-content/smush-webp/2021/06/valorant-heroes-grayscale-banner.jpg.webp');
+    background-size: cover;
+    background-position: center bottom;
+    height: 100px;
+    color: white;
+}  
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #000;
+}
+  
+.video-section {
+    text-align: center;
+    padding: 30px;
+}
+  
+.video-container {
+    max-width: 100%;
+    overflow: hidden;
+    border: 4px solid var(--accent-color);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(255, 70, 85, 0.4);
+}
+  
+.links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+  
+.link-card {
+    background-color: #1e2a38;
+    border: 1px solid var(--accent-color);
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px #000;
+    transition: transform 0.3s;
+}
+  
+.link-card:hover {
+    transform: scale(1.05);
+}
+  
+.link-card a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+  
+footer {
+    background-color: #101820;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+}
+  
+.map-grid, .agent-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 40px 20px;
+}
+  
+.map-card, .agent-card {
+    background-color: #1e2a38;
+    border: 2px solid var(--accent-color);
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 0 10px #000;
+    text-align: center;
+    transition: transform 0.3s;
+}
+  
+.map-card:hover, .agent-card:hover {
+    transform: scale(1.05);
+}
+  
+.map-card img, .agent-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 6px var(--accent-color);
+}
+
+.esports-content {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+  
+.highlight {
+    background-color: #1e2a38;
+    border: 2px solid var(--accent-color);
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 0 10px #000;
+}
+
+video {
+    width: 100%;
+    max-width: 720px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px var(--accent-color);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #0e1621;
+    color: #fff;
+}
+  
+th, td {
+    border: 1px solid #2a3b4c;
+    padding: 10px;
+    text-align: center;
+}
+  
+th {
+    background-color: var(--accent-color);
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+  
+ul li {
+    margin-bottom: 8px;
+}
+
+.team-list {
+    list-style: none;
+    padding: 0;
+}
+  
+.team-list li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+  
+.team-icon {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+  
